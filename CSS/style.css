@@ -1,14 +1,14 @@
 @charset "UTF-8";
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 @media screen and (min-width: 480px) {
   body {
-    color: #3B4043;
+    color: #3b4043;
   }
   .main-visual {
-    background-image: url(/img/PC/mainvisual.jpg);
+    background-image: url(img/PC/mainvisual.jpg);
     background-size: cover;
     width: 92%;
     max-width: 1776px;
@@ -60,7 +60,7 @@ body {
     /* 縦棒の幅 */
     height: 120px;
     /* 縦棒の長さ */
-    background: #3B4043;
+    background: #3b4043;
     /* 縦棒の色 */
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
@@ -78,7 +78,7 @@ body {
     /* 横棒の長さ */
     height: 30px;
     /* 横棒の幅 */
-    background: #3B4043;
+    background: #3b4043;
     /* 横棒の色 */
   }
   .match-description .circle {
@@ -109,10 +109,10 @@ body {
     transform: translate(-50%, -50%);
   }
   .match-description .red {
-    background-color: #FFCDD2;
+    background-color: #ffcdd2;
   }
   .match-description .blue {
-    background-color: #BBDEFB;
+    background-color: #bbdefb;
   }
   .description {
     width: 1012px;
@@ -219,25 +219,25 @@ body {
     text-align: center;
   }
   .matching-flow .one {
-    background-color: #FFEBEE;
+    background-color: #ffebee;
   }
   .matching-flow .two {
-    background-color: #FFCDD2;
+    background-color: #ffcdd2;
   }
   .matching-flow .three {
-    background-color: #EF9A9A;
+    background-color: #ef9a9a;
   }
   .matching-flow .four {
-    background-color: #E57373;
+    background-color: #e57373;
   }
   .matching-flow .one-b {
-    background-color: #E3F2FD;
+    background-color: #e3f2fd;
   }
   .matching-flow .two-b {
-    background-color: #BBDEFB;
+    background-color: #bbdefb;
   }
   .matching-flow .three-b {
-    background-color: #90CAF9;
+    background-color: #90caf9;
   }
 }
 /*# sourceMappingURL=style.css.map */
