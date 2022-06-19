@@ -1,0 +1,243 @@
+@charset "UTF-8";
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    color: #3B4043;
+  }
+  .main-visual {
+    background-image: url(/img/PC/mainvisual.jpg);
+    background-size: cover;
+    width: 92%;
+    max-width: 1776px;
+    height: 808px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 36px;
+    line-height: 1.3em;
+    position: relative;
+  }
+  .main-visual div {
+    width: 504px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+            transform: translateY(-50%) translateX(-50%);
+  }
+  .main-visual div h2 {
+    text-align: center;
+    font-weight: 600;
+  }
+  .first {
+    padding-top: 260px;
+  }
+  .match-description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 1012px;
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 200px;
+  }
+  .match-description .match-center {
+    padding-top: 25px;
+  }
+  .match-description .match-center p {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .match-description .match-center .batu {
+    position: relative;
+    width: 30px;
+    /* 縦棒の幅 */
+    height: 120px;
+    /* 縦棒の長さ */
+    background: #3B4043;
+    /* 縦棒の色 */
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    /* 角度 */
+    margin: 0 auto;
+  }
+  .match-description .match-center .batu::after {
+    content: "";
+    position: absolute;
+    top: 45px;
+    /* 横棒のy位置 */
+    left: -45px;
+    /* 横棒のX位置 */
+    width: 120px;
+    /* 横棒の長さ */
+    height: 30px;
+    /* 横棒の幅 */
+    background: #3B4043;
+    /* 横棒の色 */
+  }
+  .match-description .circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+  }
+  .match-description .circle h2 {
+    font-size: 36px;
+    font-weight: bold;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .match-description .circle p {
+    font-size: 16px;
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    line-height: 1.8em;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .match-description .red {
+    background-color: #FFCDD2;
+  }
+  .match-description .blue {
+    background-color: #BBDEFB;
+  }
+  .description {
+    width: 1012px;
+    margin: 0 auto;
+    margin-bottom: 95px;
+  }
+  .description h2 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+  .description h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 35px;
+  }
+  .description .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 70px;
+  }
+  .description .flex .left p {
+    font-size: 16px;
+    line-height: 1.875em;
+    text-align: justify;
+    text-justify: inter-ideograph;
+  }
+  .description .flex .right div {
+    width: 420px;
+  }
+  .description .flex .right div img {
+    width: 420px;
+  }
+  .matching-part {
+    width: 1012px;
+    margin: 0 auto;
+  }
+  .matching-part h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  .matching-part .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .matching-part .flex div {
+    width: 435px;
+    margin-bottom: 45px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .matching {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 1012px;
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .matching-flow .matching-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 435px;
+    height: 135px;
+    padding: 25px 30px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px;
+  }
+  .matching-flow .matching-child text {
+    width: 265px;
+  }
+  .matching-flow .matching-child .circle {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    border: 1px solid #707070;
+  }
+  .matching-flow .matching-child .circle p {
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .matching-flow .one {
+    background-color: #FFEBEE;
+  }
+  .matching-flow .two {
+    background-color: #FFCDD2;
+  }
+  .matching-flow .three {
+    background-color: #EF9A9A;
+  }
+  .matching-flow .four {
+    background-color: #E57373;
+  }
+  .matching-flow .one-b {
+    background-color: #E3F2FD;
+  }
+  .matching-flow .two-b {
+    background-color: #BBDEFB;
+  }
+  .matching-flow .three-b {
+    background-color: #90CAF9;
+  }
+}
+/*# sourceMappingURL=style.css.map */
