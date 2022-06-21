@@ -289,7 +289,7 @@ body {
     padding-top: 8px;
   }
   .main-visual {
-    background-image: url(../img/PC/mainvisual.jpg);
+    background-image: url("https://github.com/mori-kei/ktiasil/blob/master/img/PC/mainvisual.jpg?raw=true");
     background-size: cover;
     width: 92%;
     max-width: 1776px;
