@@ -3,9 +3,290 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 680px) {
+  .pc {
+    display: none;
+  }
+  header {
+    padding: 20px 9%;
+  }
+  header div h1 {
+    font-size: 20px;
+  }
+  .middle-buttons button {
+    width: 85%;
+    border-radius: 20px;
+    border: 1px solid #CDD6DD;
+    background-color: #fff;
+    margin-right: 60px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    height: 40px;
+  }
+  .middle-buttons button a {
+    text-decoration: none;
+    color: #004BB1;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    height: 100%;
+    padding-top: 8px;
+  }
+  .main-visual {
+    background-image: url(../img/SP/mainvisual.jpg);
+    width: 85%;
+    margin: 0 auto;
+    height: 320px;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 40px;
+  }
+  .main-visual div {
+    width: 71%;
+    margin: 0 auto;
+  }
+  .main-visual div h2 {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 3em;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .description {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  .description .img-div {
+    width: 100%;
+  }
+  .description .img-div img {
+    width: 100%;
+  }
+  .description h2 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .description .description-content {
+    line-height: 1.6rem;
+    color: #707F89;
+    margin-top: 15px;
+  }
+  .matching-part {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .matching-part h2 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .matching-part h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+  .matching-part .first {
+    background-color: #ffebee;
+  }
+  .matching-part .second {
+    background-color: #ffcdd2;
+  }
+  .matching-part .third {
+    background-color: #ef9a9a;
+  }
+  .matching-part .fourth {
+    background-color: #e57373;
+  }
+  .matching-part .one {
+    background-color: #e3f2fd;
+  }
+  .matching-part .two {
+    background-color: #bbdefb;
+  }
+  .matching-part .three {
+    background-color: #90caf9;
+  }
+  .matching-part .part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 75px;
+    padding: 65px 25px;
+    margin-bottom: 25px;
+  }
+  .matching-part .part .circle {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+  }
+  .matching-part .part .circle p {
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .matching-part .part .content-text {
+    width: 60%;
+    line-height: 2.0rem;
+    font-size: 12px;
+  }
+  .match-description {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .match-description .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+  }
+  .match-description .circle h2 {
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .match-description .circle p {
+    font-size: 12px;
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    line-height: 1.8em;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .match-description .batu {
+    position: relative;
+    width: 30px;
+    /* 縦棒の幅 */
+    height: 120px;
+    /* 縦棒の長さ */
+    background: #333;
+    /* 縦棒の色 */
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    /* 角度 */
+    margin: 0 auto;
+  }
+  .match-description .batu::after {
+    content: "";
+    position: absolute;
+    top: 45px;
+    /* 横棒のy位置 */
+    left: -45px;
+    /* 横棒のX位置 */
+    width: 120px;
+    /* 横棒の長さ */
+    height: 30px;
+    /* 横棒の幅 */
+    background: #333;
+    /* 横棒の色 */
+  }
+  .match-description .red {
+    background-color: #ffcdd2;
+  }
+  .match-description .blue {
+    background-color: #bbdefb;
+  }
+  .img-part {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .img-part div {
+    text-align: center;
+  }
+  .img-part div p {
+    text-align: center;
+    font-size: 5px;
+    margin-top: 20px;
+  }
+  .message {
+    width: 85%;
+    font-size: 12px !important;
+    text-align: left;
+    margin: 0 auto;
+    color: #707F89;
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+  footer {
+    background-color: #3B4043;
+    padding: 10px;
+    color: #fff;
+    font-size: 9px;
+    margin-top: 130px;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  .sp {
+    display: none !important;
+  }
   body {
     color: #3b4043;
+  }
+  header {
+    width: 92%;
+    margin: 0 auto;
+    color: #fff;
+    padding: 40px 0;
+  }
+  header div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header div .title {
+    display: block;
+  }
+  header div .title h1 {
+    color: #3b4043;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  header div .title p {
+    color: #707F89;
+    font-size: 12px;
+  }
+  header div .buttons button {
+    width: 150px;
+    border-radius: 20px;
+    border: 1px solid #CDD6DD;
+    background-color: #fff;
+    margin-right: 60px;
+  }
+  header div .buttons button a {
+    text-decoration: none;
+    color: #004BB1;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    height: 100%;
+    padding-top: 8px;
   }
   .main-visual {
     background-image: url(../img/PC/mainvisual.jpg);
@@ -238,6 +519,29 @@ body {
   }
   .matching-flow .three-b {
     background-color: #90caf9;
+  }
+  .img-part {
+    margin-top: 275px;
+  }
+  .img-part div {
+    text-align: center;
+  }
+  .img-part div p {
+    text-align: center;
+    margin-top: 45px;
+  }
+  .message {
+    width: 865px;
+    margin: 0 auto;
+    margin-top: 160px;
+  }
+  footer {
+    background-color: #3B4043;
+    padding: 20px 75px;
+    margin-top: 150px;
+  }
+  footer p {
+    color: #fff;
   }
 }
 /*# sourceMappingURL=style.css.map */
