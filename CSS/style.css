@@ -35,6 +35,12 @@ body {
     height: 100%;
     padding-top: 8px;
   }
+  .middle-buttons .form {
+    background-color: #004BB1;
+  }
+  .middle-buttons .form a {
+    color: #fff;
+  }
   .main-visual {
     background-image: url(../img/SP/mainvisual.jpg);
     width: 85%;
@@ -280,6 +286,7 @@ body {
     border: 1px solid #CDD6DD;
     background-color: #fff;
     margin-right: 60px;
+    padding: 5px 10px;
   }
   header div .buttons button a {
     text-decoration: none;
@@ -288,7 +295,14 @@ body {
     display: block;
     text-align: center;
     height: 100%;
-    padding-top: 8px;
+    padding-top: 15px;
+  }
+  header div .buttons .form {
+    background-color: #004BB1;
+  }
+  header div .buttons .form a {
+    padding-top: 4px;
+    color: #fff;
   }
   .main-visual {
     background-image: url(../img/PC/mainvisual.jpg);
@@ -536,6 +550,37 @@ body {
     width: 865px;
     margin: 0 auto;
     margin-top: 160px;
+  }
+  .bottom-buttons {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .bottom-buttons button {
+    border-radius: 20px;
+    border: 1px solid #CDD6DD;
+    background-color: #fff;
+    margin-right: 60px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 800px;
+  }
+  .bottom-buttons button a {
+    text-decoration: none;
+    color: #004BB1;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    height: 100%;
+    padding-top: 8px;
+  }
+  .bottom-buttons .form {
+    background-color: #004BB1;
+  }
+  .bottom-buttons .form a {
+    color: #fff;
   }
   footer {
     background-color: #3B4043;
