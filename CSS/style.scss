@@ -49,6 +49,12 @@ $third-blue: #90caf9;
             padding-top: 8px;
           }
     }
+    & .form{
+      background-color: #004BB1;
+      & a{
+        color: #fff;
+      }
+    }
     
          
   }
@@ -291,6 +297,7 @@ $third-blue: #90caf9;
           border: 1px solid #CDD6DD;
           background-color: #fff;
           margin-right: 60px;
+          padding: 5px 10px;
           & a{
             text-decoration: none;
             color: #004BB1;
@@ -298,7 +305,15 @@ $third-blue: #90caf9;
             display: block;
             text-align: center;
             height: 100%;
-            padding-top: 8px;
+            padding-top: 15px;
+            
+          }
+        }
+        & .form{
+          background-color: #004BB1;
+          & a{
+            padding-top: 4px;
+            color: #fff;
           }
         }
       }
@@ -526,6 +541,42 @@ $third-blue: #90caf9;
     width: 865px; 
     margin: 0 auto;
     margin-top: 160px;
+  }
+  .bottom-buttons{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    & button{
+      // display: block;
+      // width: 800px;
+      // margin: 0 auto;
+      border-radius: 20px;
+      border: 1px solid #CDD6DD;
+      background-color: #fff;
+      margin-right: 60px;
+      display: block;
+      margin: 0 auto;
+     margin-bottom: 30px;
+     height: 40px;
+     width: 800px;
+      & a{
+        text-decoration: none;
+        color: #004BB1;
+        font-weight: 600;
+        display: block;
+        text-align: center;
+        height: 100%;
+        padding-top: 8px;
+
+      }
+    }
+    .form{
+      background-color: #004BB1;
+      & a{
+        color: #fff;
+      }
+    }
+
   }
   footer{
    

@@ -13,13 +13,34 @@
       rel="stylesheet"
     />
     <script>
-      (function(d) {
+      (function (d) {
         var config = {
-          kitId: 'wra4yix',
-          scriptTimeout: 3000,
-          async: true
-        },
-        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+            kitId: "wra4yix",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
       })(document);
     </script>
     <title>きたしる</title>
@@ -32,8 +53,23 @@
           <p class="pc">道内企業と学生のマッチングサービス</p>
         </div>
         <div class="buttons pc">
-          <button><a href="https://mori-kei.github.io/kitasil-chart-co/">企業向け診断</a></button>
-          <button><a href="https://mori-kei.github.io/kitasl-chart/" target="_blank">学生向け診断</a></button>
+          <button>
+            <a
+              target="_blank"
+              href="https://mori-kei.github.io/kitasil-chart-co/"
+              >企業向け診断</a
+            >
+          </button>
+          <button class="form">
+            <a target="_blank" href="https://form.run/@toratora--1645901176"
+              >企業<br />回答フォーム</a
+            >
+          </button>
+          <button>
+            <a href="https://mori-kei.github.io/kitasl-chart/" target="_blank"
+              >学生向け診断</a
+            >
+          </button>
         </div>
       </div>
     </header>
@@ -47,7 +83,20 @@
       </div>
     </section>
     <div class="middle-buttons sp">
-      <button><a href="https://mori-kei.github.io/kitasil-chart-co/"  target="_blank">企業向け診断</a> </button><button><a href="https://mori-kei.github.io/kitasl-chart/"  target="_blank"> 学生向け診断</a></button>
+      <button>
+        <a href="https://mori-kei.github.io/kitasil-chart-co/" target="_blank"
+          >企業向け診断</a
+        ></button
+      ><button class="form">
+        <a href="https://form.run/@toratora--1645901176" target="_blank">
+          企業回答フォーム</a
+        >
+      </button>
+      <button>
+        <a href="https://mori-kei.github.io/kitasl-chart/" target="_blank">
+          学生向け診断</a
+        >
+      </button>
     </div>
     <section>
       <div class="description sp">
@@ -63,12 +112,11 @@
             </p>
           </div>
         </div>
-        
       </div>
       <div class="match-description sp">
         <div class="circle red">
           <h2>大学生</h2>
-          <p>自分の個性に合った<br>雰囲気の職場を見つける</p>
+          <p>自分の個性に合った<br />雰囲気の職場を見つける</p>
         </div>
         <div class="batu"></div>
         <div class="circle blue">
@@ -93,7 +141,7 @@
           </div>
         </div>
       </div>
-      
+
       <div class="match-description pc">
         <div class="circle red">
           <h2>大学生</h2>
@@ -194,8 +242,10 @@
             </div>
           </div>
           <div class="content-text">
-            <p>Webサイト上で自分の志向する組織文化特性にマッチした企業を
-              検索・情報提供を受ける</p>
+            <p>
+              Webサイト上で自分の志向する組織文化特性にマッチした企業を
+              検索・情報提供を受ける
+            </p>
           </div>
         </div>
         <div class="part third">
@@ -205,7 +255,9 @@
             </div>
           </div>
           <div class="content-text">
-            <p>興味のある適合企業については、さらに詳しい情報提供（企業情報の提供や企業Webサイトへのリンク）</p>
+            <p>
+              興味のある適合企業については、さらに詳しい情報提供（企業情報の提供や企業Webサイトへのリンク）
+            </p>
           </div>
         </div>
         <div class="part fourth">
@@ -215,7 +267,9 @@
             </div>
           </div>
           <div class="content-text">
-            <p>自分の組織文化（雰囲気）志向に合った企業を見つけ、応募（エントリー）を検討することができる</p>
+            <p>
+              自分の組織文化（雰囲気）志向に合った企業を見つけ、応募（エントリー）を検討することができる
+            </p>
           </div>
         </div>
         <div class="title-company">
@@ -228,8 +282,7 @@
             </div>
           </div>
           <div class="content-text">
-            <p>アンケートに回答し、
-              自社の組織文化特性を明確化</p>
+            <p>アンケートに回答し、 自社の組織文化特性を明確化</p>
           </div>
         </div>
         <div class="part two">
@@ -239,7 +292,9 @@
             </div>
           </div>
           <div class="content-text">
-            <p>Webサイト上で組織文化特性が提示され、志向が適合する大学生へ自社情報を提供（マッチング）</p>
+            <p>
+              Webサイト上で組織文化特性が提示され、志向が適合する大学生へ自社情報を提供（マッチング）
+            </p>
           </div>
         </div>
         <div class="part three">
@@ -249,19 +304,22 @@
             </div>
           </div>
           <div class="content-text">
-            <p>自社組織の雰囲気に合った人材のエントリーや応募（エントリー）へとつながる</p>
+            <p>
+              自社組織の雰囲気に合った人材のエントリーや応募（エントリー）へとつながる
+            </p>
           </div>
         </div>
       </div>
       <div class="img-part sp">
         <div class="img-content">
-          <img src="./img/SP/cartImg.jpg" alt="">
+          <img src="./img/SP/cartImg.jpg" alt="" />
           <p>―組織文化特性のチャート提示例（企業）―</p>
         </div>
-        
       </div>
       <div class="message sp">
-        <p>このようなマッチングは採用（就活）段階での適合性を高めるだけでなく、その後の人材定着率を高めるためにも貢献すると考えられます。また、このような情報提供は就活生にとっては就職という未知のフィールドを切り開くための羅針盤として役立つ可能性があります。以上のような主旨をご理解いただき、企業・大学生の皆様のご参加を広くお願いいたします。</p>
+        <p>
+          このようなマッチングは採用（就活）段階での適合性を高めるだけでなく、その後の人材定着率を高めるためにも貢献すると考えられます。また、このような情報提供は就活生にとっては就職という未知のフィールドを切り開くための羅針盤として役立つ可能性があります。以上のような主旨をご理解いただき、企業・大学生の皆様のご参加を広くお願いいたします。
+        </p>
       </div>
       <div class="matching-part pc">
         <h2>マッチングまで</h2>
@@ -361,8 +419,38 @@
         </div>
       </div>
     </section>
+    <div class="bottom-buttons pc" >
+      <button>
+        <a href="https://mori-kei.github.io/kitasil-chart-co/" target="_blank"
+          >企業向け診断</a
+        ></button
+      ><button class="form">
+        <a href="https://form.run/@toratora--1645901176" target="_blank">
+          企業回答フォーム</a
+        >
+      </button>
+      <button>
+        <a href="https://mori-kei.github.io/kitasl-chart/" target="_blank">
+          学生向け診断</a
+        >
+      </button>
+    </div>
     <div class="middle-buttons sp">
-      <button><a href="https://mori-kei.github.io/kitasil-chart-co/"  target="_blank">企業向け診断</a> </button><button><a href="https://mori-kei.github.io/kitasl-chart/"  target="_blank"> 学生向け診断</a></button>
+      <button>
+        <a href="https://mori-kei.github.io/kitasil-chart-co/" target="_blank"
+          >企業向け診断</a
+        ></button
+      >
+      <button class="form">
+        <a href="https://form.run/@toratora--1645901176" target="_blank">
+          企業回答フォーム</a
+        >
+      </button>
+      <button>
+        <a href="https://mori-kei.github.io/kitasl-chart/" target="_blank">
+          学生向け診断</a
+        >
+      </button>
     </div>
     <footer>
       <p>きたしる</p>
