@@ -41,6 +41,12 @@ body {
   .middle-buttons .form a {
     color: #fff;
   }
+  .middle-buttons .form {
+    background-color: #004BB1;
+  }
+  .middle-buttons .form a {
+    color: #fff;
+  }
   .main-visual {
     background-image: url(../img/SP/mainvisual.jpg);
     width: 85%;
