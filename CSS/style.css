@@ -24,7 +24,6 @@ body {
     display: block;
     margin: 0 auto;
     margin-bottom: 30px;
-    height: 40px;
   }
   .middle-buttons button a {
     text-decoration: none;
@@ -34,6 +33,7 @@ body {
     text-align: center;
     height: 100%;
     padding-top: 8px;
+    padding-bottom: 8px;
   }
   .middle-buttons .form {
     background-color: #004BB1;

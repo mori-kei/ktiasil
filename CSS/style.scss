@@ -38,7 +38,7 @@ $third-blue: #90caf9;
           display: block;
           margin: 0 auto;
          margin-bottom: 30px;
-         height: 40px;
+
           & a{
             text-decoration: none;
             color: #004BB1;
@@ -47,6 +47,7 @@ $third-blue: #90caf9;
             text-align: center;
             height: 100%;
             padding-top: 8px;
+            padding-bottom: 8px;
           }
     }
     & .form{
